@@ -3,17 +3,20 @@ function goToWebsite(websiteURL) {
       //alert("Oops! Terjadi kesalahan. 4000");
     }
 
+// JavaScript
+// JavaScript
 const allSkeleton = document.querySelectorAll('.skeleton');
-const sejarah =  document.getElementById('sejarah');
-const berita =  document.getElementById('berita');
+const loginElements = document.querySelectorAll('[id^="login"]'); // Memilih semua elemen dengan ID yang dimulai dengan "login"
 
 window.addEventListener('load', function() {
   setTimeout(function() {
     allSkeleton.forEach(item => {
       item.classList.remove('skeleton');
-      sejarah.style.opacity = "1";
-      berita.style.opacity = "1";
     });
-  }, 1000);
+    
+    // Mengatur semua elemen dengan ID yang dimulai dengan "login" agar opasitasnya menjadi 1 (muncul)
+    loginElements.forEach(loginElement => {
+      loginElement.style.opacity = "1";
+    });
+  }, 700);
 });
-
