@@ -342,6 +342,7 @@ height: 40px;
     left: 0;
     width: 100%;
     height: 100%;
+    margin-top: 10px;
     z-index: 10;
     border-radius: 50px;
     background: linear-gradient(90deg, #EEEEEE82, #F9F9F926, #EEEEEE82);
