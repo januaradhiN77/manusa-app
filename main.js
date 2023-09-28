@@ -14,6 +14,6 @@ window.addEventListener('load', function() {
       sejarah.style.opacity = "1";
       berita.style.opacity = "1";
     });
-  }, 700);
+  }, 1000);
 });
 
