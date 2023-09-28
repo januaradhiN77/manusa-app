@@ -25,6 +25,7 @@ html{
               width: 100%;
              background: #18181A;
               height: 7vh;
+              gap: 50px;
               position: fixed;
               top: 0;
               border-radius: 0px 0px 20px 20px;
