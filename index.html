@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Days+One" />
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <title>Manusa App - Home</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+        <div class="manusa-text">
+                <img src="asset/manusa.png">
+        </div>
+</header>
+<body>
+
+
+<section class="menu-content">
+        <div class="text-selamatdatang">
+                <h3>SELAMAT DATANG</h3>
+                <span>Di Aplikasi MANUSA APP</span>
+        </div>
+              <div class="search">
+                      <input type="text" id="searchInput" placeholder="Cari Sesuatu di MANUSA APP" frameborder="0">
+              </div>
+
+</section>
+<section class="banner-content">
+            <div class="banner">
+        <div class="slides">
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('https://jkt48.com/gen12-audition')">
+                            <img src="https://smkmaarifnu1sumpiuh.sch.id/images/berita/gb6.jpg" alt="">
+                </button>
+            </div>
+            <div class="slide">
+                <button class="buttonmem" onclick="goToWebsite('https://jkt48.com/lovejkt48theaterpb?lang=id')">
+                    <img src="https://smkmaarifnu1sumpiuh.sch.id/images/berita/gb11.jpg" alt="">
+                </button>
+            </div>
+
+
+
+            <div class="navigation">
+                <button class="prev buttonmem" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="next buttonmem" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</section>
+<section class="berita">
+<div class="text-berita">
+        <h1>Berita Terbaru</h1>
+</div>
+           <div class="container-berita">
+                        <div class="box-berita">
+                <img src="https://smkmaarifnu1sumpiuh.sch.id/images/berita/gb13.jpg">
+                <div class="detail-singkat">
+                        <span>Peserta MPLS Didik Baru Tahun Pelajaran 2023/2024</span>
+                        <p>7 Juli 2023</p>
+                </div>
+                        </div>
+
+
+                              
+                      </div>
+</section>
+<section class="profile">
+        <div class="profile-container">
+                <h2>Profile MANUSA</h2>
+                <div class="line"></div>
+                <div class="sejarah">
+                        <h3>Sejarah Singkat SMK Ma'arif NU 1 Sumpiuh</h3><br>
+                        <p>SMK Ma'arif NU 1 Sumpiuh didirikan pada tahun 1993 dengan nama Sekolah Menengah Kejuruan Ma'arif NU 1 Sumpiuh
+<br><br>
+Pada awal berdirinya memiliki dua jurusan yaitu Teknik Otomotif dan Teknik Elektronika. Seiring dengan perkembangan sejak 1993 sampai dengan 2024 sekarang memilki 4 buah jurusan yaitu:
+<br><br>
+1. Teknik  Audio Video
+<br>
+2. Teknik Kendaraan Ringan
+<br>
+3. Teknik  Alat Berat
+<br>
+4. Teknik Komputer dan Jaringan
+<br><br>
+Beberapa Kepala Sekolah yang pernah menjabat di SMK Ma'arif NU 1 Sumpiuh<br><br>
+1. Drs. Sahidin<br>
+2. Subardan, S.Ag (Alm)<br>
+3. Muftofa, S.Ag <br>
+4. Sugiharto, S.Pd. (Alm)<br>
+5. Sunar Cahyono, S.Pd. </p>
+                </div>
+<div class="text-sosmed">
+                                <h2>Sosial Media</h2>
+                                <div class="line"></div>
+</div>
+<div class="sosmed">
+
+       <button class="buttonmem" onclick="goToWebsite('https://instagram.com/smkmaarifsumpiuh?igshid=MzRlODBiNWFlZA==')"> <div class="background-sosmed">
+                
+ <i class='bx bxl-instagram'></i>
+        </div></button>
+                <div class="background-sosmed">
+         <button class="buttonmem" onclick="goToWebsite('https://youtube.com/@hijauabu7228?si=fKayWu-yhFEgSNt7')"><i class='bx bxl-youtube'></i>
+                
+</div>
+</button>
+</div>
+<div class="video-profile">
+        <iframe src="https://www.youtube.com/embed/2NBe4o9SvYw?si=kk_2F4M6pZh3drb8" allowfullscreen frameborder="0"></iframe>
+        <span>Sc : YouTube (HIJAU ABU)</span>
+
+</div>
+        </div>
+
+</section>
+  <script src="main.js"></script>
+</body>
+</html>
