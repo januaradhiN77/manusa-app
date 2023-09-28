@@ -347,7 +347,7 @@ height: 40px;
     border-radius: 50px;
     background: linear-gradient(90deg, #EEEEEE82, #F9F9F926, #EEEEEE82);
     background-size: 200%;
-    animation: skeleton 0.3s infinite reverse;
+    animation: skeleton 0.5s infinite reverse;
 }
 @keyframes skeleton {
     0% {
