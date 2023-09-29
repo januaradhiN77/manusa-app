@@ -250,7 +250,7 @@ margin-left: 5px;
 .profile{
         display: flex;
         justify-content: left;
-        height: 120vh;
+        height: 155vh;
         width: 100%;
         background: #2C2C33;
 
@@ -362,7 +362,9 @@ height: 40px;
         display: flex;
         flex-direction: column;
         margin-left: 15px;
+        
 }
+
 .kepala-sekolah span{
         color: white;
         margin-top: 10px;
