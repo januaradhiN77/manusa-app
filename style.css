@@ -358,4 +358,19 @@ height: 40px;
         background-position: 100% 0;
     }
 }
+.kepala-sekolah{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+}
+.kepala-sekolah span{
+        color: white;
+        margin-top: 10px;
+        font-weight: 600;
+}
+.kepala-sekolah img{
+           border: 2px solid #FFFFFFF7;
+           width: 100px; 
+           margin-left: 20px;
+}
 }
