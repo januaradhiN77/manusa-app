@@ -487,5 +487,9 @@ height: 40px;
         margin-left: 20px;
         -webkit-line-clamp: 3;
 }
-
+.berita-box h3{
+      margin-right: auto;
+      margin-left: 20px;
+      font-size: 15px;
+}
 }
