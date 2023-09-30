@@ -628,6 +628,17 @@ margin-left: 5px;
         width: 100%;
         
 }
+.motivasi{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 350px;
+        margin-top: 20px;
+}
+.motivasi p{
+        font-style: italic;
+}
 .isi-box{
         display: flex;
         justify-content: center;
