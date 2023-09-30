@@ -585,10 +585,25 @@ margin-left: 5px;
         display: flex;
         margin-top: 100px;
 }
+.text-back{
+        width: 100%;
+
+        display: flex;
+
+        margin-top: 50px;
+}
 .text-1 span{
        font-family: "Days One";
        margin-left: 20px;
        font-size: 20px;
+}
+.text-2 span{
+
+       font-family: "Days One";
+
+       margin-left: 20px;
+       font-size: 40px;
+       
 }
 .jurusan-manusa{
         display: flex;
@@ -606,7 +621,7 @@ margin-left: 5px;
         justify-content: center;
 
         align-items: center;
-        margin-top: 100px;
+        margin-top: 0px;
         border-radius: 20px 20px 0px 0px;
         background: #2C2C33;
         flex-direction: column;
