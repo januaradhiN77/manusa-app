@@ -302,7 +302,7 @@ background: linear-gradient(nulldeg, rgba(43,212,95,0.2560004909949122) 32%, rgb
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 30px;
         flex-direction: column;
 }
 .video-profile iframe{
