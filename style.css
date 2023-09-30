@@ -11,6 +11,13 @@
   font-size: none;
 }
 
+@font-face 
+{
+    font-family:"nevis";
+    src: url("nevis.ttf") format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 html{
@@ -582,5 +589,116 @@ margin-left: 5px;
        font-family: "Days One";
        margin-left: 20px;
        font-size: 20px;
+}
+.jurusan-manusa{
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+}
+.isi-container{
+
+        display: flex;
+
+
+        justify-content: center;
+
+        align-items: center;
+        margin-top: 100px;
+        border-radius: 20px 20px 0px 0px;
+        background: #2C2C33;
+        flex-direction: column;
+        width: 100%;
+        
+}
+.isi-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+}
+.image-jurusan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+}
+.image-jurusan img{
+        width: 130px;
+        margin-top: 10px;
+        border: 2px solid #FFFFFFB8;
+        border-radius: 10px;
+}
+.isi-box span{
+        font-size: 23px;
+        font-weight: 700;
+        margin-top: 20px;
+        font-family: 'nevis', sans-serif;
+}
+.batas-jurusan{
+        width: 100%;
+        height: 5px;
+        background:  #18181A;
+        margin-top: 30px;
+}
+.text-desk{
+        display: flex;
+        
+        
+        justify-content: center;
+        align-items: center;
+       margin-top: 50px;
+       width: 100%;
+        flex-direction: column;
+}
+.text-desk h2{
+        
+        
+        font-size: 24px;
+        font-family: 'nevis';
+}
+.deskripsi-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        
+}
+.deskripsi-text p{
+        width: 90%;
+}
+.background-sosmed-jurusan{
+
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+          box-shadow: rgba(64, 60, 67, 0.3) 0px 2px 1px 0px, rgba(64, 60, 67, 0.15) 0px 0px 6px 0px;
+        flex-direction: column;
+        margin-top: 20px;
+        border-radius: 50%;
+
+background: #212121;
+width: 43px;
+height: 43px;
+}
+.background-sosmed-jurusan i{
+        
+
+        color: white;
+
+        font-size: 35px;
+        
+
+}
+.sosmed-jurusan{
+        display: flex;
+        gap: 15px;
 }
 }
