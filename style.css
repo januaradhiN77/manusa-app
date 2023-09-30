@@ -492,4 +492,93 @@ height: 40px;
       margin-left: 20px;
       font-size: 15px;
 }
+.jurusan{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+}
+.jurusan-container{
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+        margin-top: 20px;
+        border-radius: 20px 20px 0px 0px;
+        background: #2C2C33;
+        flex-direction: column;
+        width: 100%;
+}
+.jurusan-container .jurusan-box{
+
+  box-shadow: rgba(64, 60, 67, 0.3) 0px 2px 1px 0px, rgba(64, 60, 67, 0.15) 0px 0px 6px 0px;
+
+  margin: auto;
+  border-radius: 10px;
+  width: 340px;
+  text-align: center;
+  height: 100px;
+  margin-right: 25px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background: #212121;
+  margin-left: 25px;
+}
+.jurusan-box{
+      display: flex;
+
+        justify-content: left;
+
+        align-items: left;
+      
+}
+.nama-jurusan{
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: left;
+        width: 100%;
+        gap: 0rem;
+        margin-top: 15px;
+        color: white;
+}
+.nama-jurusan span{
+           -webkit-line-clamp: 2;
+
+margin-right: auto;
+
+margin-left: 5px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 700;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-weight: bold;
+}
+.nama-jurusan p{
+        font-weight: 400;
+
+        margin-right: auto;
+        font-size: 12px;
+        margin-left: 5px;
+        margin-top: 5px;
+}
+.jurusan-container .jurusan-box img{
+
+    width: 100px;
+
+    border-radius: 10px 5px 5px 10px;
+}
+.text-favorite{
+        width: 100%;
+        display: flex;
+        margin-top: 100px;
+}
+.text-1 span{
+       font-family: "Days One";
+       margin-left: 20px;
+}
 }
