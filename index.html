@@ -140,6 +140,11 @@ RELIGIUS, KREATIF, KOMPETITIF DAN MANDIRI
 
 </section>
 <script>
+if (navigator.userAgent.indexOf('gonative') > -1) {
+  $('.browser-only-links').hide();
+}
+</script>
+<script>
         function bukaDiYouTube() {
             // Cek apakah perangkat memiliki protokol "youtube:"
             if (window.location.href.startsWith('youtube:')) {
