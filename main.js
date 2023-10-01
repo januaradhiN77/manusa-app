@@ -20,3 +20,14 @@ window.addEventListener('load', function() {
     });
   }, 700);
 });
+
+ScrollReveal({
+        reset: false,
+        distance: '80px',
+        duration: 2000,
+        delay: 400
+});
+
+ScrollReveal().reveal('.guru-box ', { origin: 'bottom' });
+ScrollReveal().reveal('.daftar-guru ', { origin: 'left' });
+
