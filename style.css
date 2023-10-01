@@ -359,7 +359,7 @@ height: 40px;
     height: 100%;
     margin-top: 10px;
     z-index: 10;
-    border-radius: 50px;
+    border-radius: 30px;
     background: linear-gradient(90deg, #EEEEEE82, #F9F9F926, #EEEEEE82);
     background-size: 200%;
     animation: skeleton 0.5s infinite reverse;
