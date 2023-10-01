@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download File</title>
+</head>
+<body>
+
+<!-- Tombol Download -->
+<button id="downloadButton">Download File</button>
+
+<script>
+    // Fungsi untuk mengarahkan pengguna ke URL file
+    function downloadFile() {
+        // Ganti 'https://website_lain.com/file.zip' dengan URL file yang ingin Anda unduh
+        var fileUrl = 'https://smkmaarifnu1sumpiuh.sch.id/bahanajar/MERAKITPC-1.pdf';
+        
+        // Arahkan pengguna ke URL file
+        window.location.href = fileUrl;
+    }
+
+    // Tambahkan event listener untuk tombol download
+    document.getElementById("downloadButton").addEventListener("click", downloadFile);
+</script>
+
+</body>
+</html>
